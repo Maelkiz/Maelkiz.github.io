@@ -6,7 +6,7 @@ body {
 #content {
   margin-left: 25%;
   width: 50%;
-
+  padding-bottom: 30px;
   background: #303443;
   border: #fb542b;
 }

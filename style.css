@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background-color: #0c0c17;
+}
+
+#content {
+  margin-left: 25%;
+  width: 50%;
+
+  background: #303443;
+  border: #fb542b;
+}
+
+#navbar {
+  width: 94%;
+  height: 50px;
+  padding: 3%;
+  background: #181a21;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fb542b;
+}
+
+#name {
+  position: absolute;
+  top: 25px;
+}
+
+#school {
+  position: absolute;
+  top: 25px;
+  left: 62.5%;
+  text-align: left;
+}
+
+#navnlink-wrapper {
+  padding: 10px;
+  background: #0c0c17;
+  width: 30%;
+  margin-left: 35%;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fb542b;
+}
+
+.navlink {
+  position: relative;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  color: White;
+}
+
+#wrapper {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #181a21;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fb542b;
+}
+
+h1 {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+img {
+  width: 100%;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+p {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 40px;
+}
+
+.download {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: aqua;
+}

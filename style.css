@@ -20,9 +20,26 @@ h2 {
 
 #next {
   position: fixed;
-  width: 13rem;
   left: 3rem;
   bottom: 3rem;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1) {
+  #next {
+    width: 13rem;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25) {
+  #next {
+    width: 11rem;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+  #next {
+    width: 9rem;
+  }
 }
 
 #banner {
@@ -33,9 +50,26 @@ h2 {
 #logo {
   position: absolute;
   width: 25%;
-  top: 30%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1) {
+  #logo {
+    top: 31%;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25) {
+  #logo {
+    top: 32%;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+  #logo {
+    top: 33%;
+  }
 }
 
 .maintext {
